@@ -22,6 +22,6 @@ Engineering graduate in Data Science and AI from École Polytechnique de Sousse 
 
 ## Tech stack
 
-**ML & AI:** Python, PyTorch, Transformers, scikit-learn, LLM agents, MCP
-**Data:** pandas, SQL, PostgreSQL, MongoDB, Snowflake, Power BI, R
-**MLOps & engineering:** FastAPI, Docker, MLflow, GitHub Actions, Azure, Git
+- **ML & AI:** Python, PyTorch, Transformers, scikit-learn, LLM agents, MCP
+- **Data:** pandas, SQL, PostgreSQL, MongoDB, Snowflake, Power BI, R
+- **MLOps & engineering:** FastAPI, Docker, MLflow, GitHub Actions, Azure, Git
