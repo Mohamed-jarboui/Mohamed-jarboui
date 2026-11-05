@@ -14,6 +14,7 @@ Engineering graduate in Data Science and AI from École Polytechnique de Sousse 
 | Project | What it is | Stack |
 |---|---|---|
 | [**HCode v2**](https://github.com/Mohamed-jarboui/Hcode-V2) | Self-hosted, model-agnostic AI coding agent: Plan-Execute-Verify loop, safety guard, MCP, skills, LSP-based verification, desktop app; 680+ tests | Python · LangGraph · MCP · Tauri |
+| [**predictive-maintenance-rul**](https://github.com/Mohamed-jarboui/P1) | Remaining useful life of turbofan engines (NASA C-MAPSS) with calibrated 90% intervals, turned into maintenance decisions: the predictive policy costs **7-14% above an oracle vs 62-88% for the best fixed schedule**, on engines the model never saw; API with out-of-distribution guards | scikit-learn · conformal prediction · FastAPI · Docker |
 | [**face-age-estimation**](https://github.com/Mohamed-jarboui/face-age-estimation) | EfficientNet-B0 fine-tuned on 23.7k faces; **MAE 5.1 years** on a held-out test set, with error breakdowns by age, gender and ethnicity | PyTorch · transfer learning · GitHub Actions |
 | [**bank-churn-mlops**](https://github.com/Mohamed-jarboui/bank-churn-mlops) | Churn model served with FastAPI and Streamlit, MLflow tracking, data drift detection, Docker, CI/CD to Azure Container Apps | scikit-learn · MLflow · FastAPI · Azure |
 | [**resume-ner-bert**](https://github.com/Mohamed-jarboui/resume-ner-bert) | Extracts skills, degrees, experience and contact details from French and English CVs (PDF + OCR) with multilingual BERT + CRF | PyTorch · Transformers · Streamlit |
@@ -22,6 +23,6 @@ Engineering graduate in Data Science and AI from École Polytechnique de Sousse 
 
 ## Tech stack
 
-- **ML & AI:** Python, PyTorch, Transformers, scikit-learn, LLM agents, MCP
+- **ML & AI:** Python, PyTorch, Transformers, scikit-learn, LLM agents, MCP, time-series and sensor data, conformal prediction
 - **Data:** pandas, SQL, PostgreSQL, MongoDB, Snowflake, Power BI, R
 - **MLOps & engineering:** FastAPI, Docker, MLflow, GitHub Actions, Azure, Git
